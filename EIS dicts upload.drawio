@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:09:31.521Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="24.2.5" etag="TKEd83PKLVt8Dlr3P3up" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T09:08:11.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0JXkeXqStiVJA5qC6hg4" version="24.6.4" type="github">
   <diagram name="Page-1" id="SAffXF5wWCRBYehv1Hh8">
-    <mxGraphModel>
+    <mxGraphModel dx="1552" dy="1038" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-1" target="XOoU8E7iOTOzNlzP9aRr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-1" value="Нажатие кнопки &quot;Загрузить&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-2" target="XOoU8E7iOTOzNlzP9aRr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-132" y="150" as="targetPoint" />
+            <mxPoint x="-198" y="46" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-2" target="XOoU8E7iOTOzNlzP9aRr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-2" value="Таск в celery" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="6" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-3" target="XOoU8E7iOTOzNlzP9aRr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-3" value="Запуск таска загрузки справочника на сервере" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-138" y="171" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="205.3798828125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-5" value="Проходит час" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-7" value="Запуск фоновой задачи - её мы видим в виджете на раб. столе" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-2" target="XOoU8E7iOTOzNlzP9aRr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-9" target="XOoU8E7iOTOzNlzP9aRr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-9" value="Завершение таска" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-12" target="XOoU8E7iOTOzNlzP9aRr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-12" value="Нормальное завершение фоновой задачи" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-98.32552461845921" y="86.93023255813955" as="targetPoint" />
+            <mxPoint x="-222" y="203" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-17" target="XOoU8E7iOTOzNlzP9aRr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-17" value="soft таймаут, убивающий фоновую задачу" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="380.2636037427326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-19" value="Проходит 24 часа (или чуть меньше)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="291" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XOoU8E7iOTOzNlzP9aRr-21" target="XOoU8E7iOTOzNlzP9aRr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOoU8E7iOTOzNlzP9aRr-21" value="hard таймаут, убивающий таску на сервере" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
